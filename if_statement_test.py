@@ -1,8 +1,8 @@
-house_price = 1000000
-good_credit = False
+house_price = 1000000 #price of the house
+is_good_credit = False
 
-if good_credit:
+if is_good_credit:
     down_payment = 0.1 * house_price
 else:
     down_payment = 0.2 * house_price
-print(down_payment)
+print(f"Your down payment is ${down_payment}")
